@@ -30,7 +30,7 @@ ADD   R3, R1, R2
 OUT   R3
 HALT`},
 
-{name:"✖️ বিয়োগ ও গুণ",
+{name:"➖❌ বিয়োগ ও গুণ",
 asm:`; (a - b) * c
 LOADI R1, #10
 LOADI R2, #4
@@ -99,7 +99,7 @@ JMP   FIB
 FIBDONE:
 HALT`},
 
-{name:"🧩 AND/OR/XOR বিটওয়াইজ",
+{name:"0️⃣1️⃣ AND/OR/XOR বিটওয়াইজ",
 asm:`; বিটওয়াইজ অপারেশন
 LOADI R1, #12
 LOADI R2, #10
