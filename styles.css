@@ -142,3 +142,28 @@ select:focus{border-color:var(--blue)}
 .dp-box{cursor:grab}
 .dp-box:active{cursor:grabbing}
 .dp-box.dragging rect{stroke:var(--purple)!important;stroke-width:2.5!important;filter:drop-shadow(0 0 8px rgba(188,140,255,.7))!important}
+
+/* FOOTER STYLES */
+.footer {
+  background: var(--panel);
+  border-top: 1px solid var(--border);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: var(--text2);
+}
+.footer a {
+  color: var(--blue);
+  text-decoration: none;
+  font-weight: 600;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
