@@ -9,7 +9,7 @@
   --mono:'Consolas','SFMono-Regular','Menlo',monospace;
   --sans:'Segoe UI',system-ui,sans-serif;
 }
-html,body{height:100%;background:var(--bg);color:var(--text);font-family:var(--sans);font-size:13px;overflow:hidden}
+html,body{height:100%;background:var(--bg);color:var(--text);font-family:var(--sans);font-size:13px;overflow:auto}
 
 /* LAYOUT */
 .shell{display:grid;grid-template-rows:44px 1fr 32px;height:100vh}
