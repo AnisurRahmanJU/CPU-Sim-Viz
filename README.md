@@ -1,2 +1,2 @@
 # CPU-Sim-Viz
-CPU Simulator Visualizer in Bangla
+ভিজুয়াল CPU সিমুলেটর
